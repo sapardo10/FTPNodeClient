@@ -1,0 +1,36 @@
+{
+  "name": "ftpnodeclient",
+  "version": "1.0.0",
+  "description": "Client FTP ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapardo10/FTPNodeClient.git"
+  },
+  "keywords": [
+    "FTP",
+    "Client",
+    "TCP",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "Sergio Andrés Pardo Sánchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sapardo10/FTPNodeClient/issues"
+  },
+  "homepage": "https://github.com/sapardo10/FTPNodeClient#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "ftp": "^0.3.10",
+    "nodemon": "^1.17.1"
+  },
+  "proxy":"http://localhost:3001",
+  "engines": {
+    "node": "6.11.3"
+  }
+}
